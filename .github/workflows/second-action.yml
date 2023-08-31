@@ -1,7 +1,7 @@
 name: React Action
 on: push
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
